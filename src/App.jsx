@@ -5,7 +5,7 @@ import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import { getLocalStorage, setLocalStorage } from './utils/localStorage'
 const App = () => {
   useEffect(() => {
-    // setLocalStorage();
+    setLocalStorage();
     getLocalStorage();
     
   })
